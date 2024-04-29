@@ -83,11 +83,19 @@ input:invalid {
 	box-shadow: none; 
 	border: 2px solid #800000
 }
+input[type=radio]{
+margin: 10px;
+padding: 0;
+width:10px;
+}
+span{
+margin:auto;
+}
 br {
-    clear: both;
+clear: both;
 }
 #buttons input {
-	width: 10em;
+width: 10em;
 }
 /* the styles for the navigation menu */
 #nav_menu ul {
