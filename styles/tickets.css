@@ -83,14 +83,6 @@ input:invalid {
 	box-shadow: none; 
 	border: 2px solid #800000
 }
-input[type=radio]{
-margin: 10px;
-padding: 0;
-width:10px;
-}
-span{
-margin:auto;
-}
 br {
 clear: both;
 }
@@ -184,4 +176,18 @@ footer p {
 	text-align: center;
 	color: white;
 	padding: 1em 0;
+}
+input[type=radio]{
+   margin: 10px;
+   padding: 0;
+   width:10px;
+}
+span{
+   margin:auto;
+}
+#years{
+   width: 5em;
+}
+#date{
+   width: 7em;
 }
