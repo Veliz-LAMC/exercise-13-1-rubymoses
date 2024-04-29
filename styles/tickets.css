@@ -47,15 +47,18 @@ header img {
 }
 /* the styles for the form */
 fieldset {
-    margin-top: 1em;
-    margin-bottom: 1em;
-    padding-top: .5em;
+Margin-top:0;
+margin-bottom: 0.5em;
+padding-top: .5em;
+padding-bottom: 0.5em;
+padding-right: 1em;
+padding-left: 1em
 }
 legend {
-    color: #931420;
-    font-weight: bold;
-    font-size: 85%;
-    margin-bottom: .5em;
+color: #000;
+font-weight: bold;
+font-size: 85%;
+margin-bottom: .5em;
 }
 label {
     float: left;
@@ -71,13 +74,14 @@ input, select {
     margin-bottom: .5em;
 }
 input:required, input[required] {
-	border: 3px solid red;
+     border: 2px solid #800000;
 }
 input:valid {
 	border: 1px solid black;
 }
-input:invalid {
-	box-shadow: none;
+input:invalid { 
+	box-shadow: none; 
+	border: 2px solid #800000
 }
 br {
     clear: both;
